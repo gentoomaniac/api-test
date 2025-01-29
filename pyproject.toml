@@ -1,0 +1,17 @@
+[project]
+name = "python-template"
+description = "Python template project"
+version = "0.0.1"
+authors = [
+    { name = "Marco Siebecke", email = "marco@siebecke.se" }
+]
+dependencies = [
+    "click"
+]
+
+[project.scripts]
+python-template = "python_template.main:cli"
+
+[project.urls]
+"Homepage" = "https://github.com/gentoomaniac/python-template"
+"Bug Tracker" = "https://github.com/gentoomaniac/python-template/issues"
