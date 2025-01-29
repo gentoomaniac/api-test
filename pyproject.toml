@@ -6,7 +6,8 @@ authors = [
     { name = "Marco Siebecke", email = "marco@siebecke.se" }
 ]
 dependencies = [
-    "click"
+    "click",
+    "requests"
 ]
 
 [project.scripts]
